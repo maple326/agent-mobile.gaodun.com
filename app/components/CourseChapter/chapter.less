@@ -1,0 +1,35 @@
+.courseDetail-outline-item {
+    line-height: 54px;
+    padding-top: 14px;
+    border-bottom: 2px solid #e7eaef;
+
+    &.try-listen {
+        color: #31cc66;
+    }
+    &.have-listened {
+        background-image: url('../../assets/images/icon/tag.png');
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+    // .history {
+    //     margin-left: 20px;
+    // }
+    
+    .outline-item-name {
+        padding: 0 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        .chapter-num {
+            margin-right: 14px;
+        }
+        .courseList-name{
+            max-width: 85%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+            line-height: 20px;   
+        }
+    }
+}

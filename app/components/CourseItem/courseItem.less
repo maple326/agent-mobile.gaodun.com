@@ -1,0 +1,46 @@
+.course-item {
+    position: relative;
+    height: 224px;
+}
+.course-item-img {
+    overflow: hidden;
+    height: 224px;
+    img {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+    }
+}
+.course-item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    line-height: 25px;
+    padding: 5px 15px;
+
+    .title{
+        font-size: 18px;
+        color: #fff;
+        display: inline-block;
+        width: 14em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .teacher {
+        font-size: 14px;
+        color: #ccc;
+    }
+    .score {
+        float: right;
+        padding: 5px 18px;
+        border: 1px solid #daa360;
+        color: #d9a460;
+        font-size: 14px;
+        line-height: 16px;
+        border-radius: 4px;
+        margin-top: 12px;
+    }
+}
